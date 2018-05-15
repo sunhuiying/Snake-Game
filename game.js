@@ -25,7 +25,7 @@
     var that = this
     // 2.1 给 document 绑定按键的事件, 来监听 上下左右 方向键按下的事件
     document.addEventListener('keyup', function (event) {
-      // 如何获取到当前的键值??? 
+ 
       // 通过事件对象 event 来获取
       // console.log(event.keyCode)
       switch (event.keyCode) {
