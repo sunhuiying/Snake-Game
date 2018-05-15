@@ -14,7 +14,7 @@
 
   // 2 给原型对象添加render方法
   Food.prototype.render = function (target) {
-    // 思路：
+   
     // 1 创建食物的DOM对象
     var foodElement = document.createElement('div')
     // 将食物的DOM对象添加给this
@@ -34,8 +34,5 @@
     // 3 将DOM对象追加到页面中
     target.appendChild(foodElement)
   }
-
-  // 暴露Food到window中
-  // 只将最核心的 Food 暴露，保证一个JS文件中值暴露一个全局变量
   window.Food = Food
 })(window)
