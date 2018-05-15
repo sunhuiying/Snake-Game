@@ -22,7 +22,7 @@
 
   // 渲染蛇
   Snake.prototype.render = function (target) {
-    // 思路：
+   
     // 因为蛇由很多个关节，所以，我们需要为每一个关节分别创建一个DOM元素，并且渲染在页面中
     // 以此，来表示整条蛇
 
@@ -48,7 +48,7 @@
 
   // 让蛇动起来
   Snake.prototype.move = function (target, food) {
-    // 思路：
+  
     // 1 创建一个新的蛇节
     // 2 这个蛇节默认的位置与蛇头的位置相同
     var newNode = {
